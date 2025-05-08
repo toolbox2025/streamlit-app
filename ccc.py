@@ -8,6 +8,8 @@ import datetime
 import base64
 
 
+# ✅ Page config ganz früh
+st.set_page_config(page_title="Supervision – Anliegen klären", layout="wide")
 # -----------------------------
 # 0. Passwort
 # -----------------------------
@@ -881,7 +883,6 @@ interventionen = {
 ]
 }
 # Seite einrichten
-st.set_page_config(page_title="Supervision – Anliegen klären", layout="wide")
 st.title("Supervision: Anliegen klären")
 
 # Auswahl des Anliegens
